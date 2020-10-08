@@ -32,6 +32,6 @@ printf("Enter difference :-");
     printf("Pair found (%d,%d)",arr[i],arr[j]);
   else
     printf("Pair not found");
-      
+  free(arr);
   return 0;
 }
