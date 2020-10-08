@@ -27,5 +27,6 @@ int main() {
     printf("%d",i);
   else
      printf("-1");
+  free(arr);
   return 0;
 }
