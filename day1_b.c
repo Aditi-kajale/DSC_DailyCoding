@@ -39,4 +39,7 @@ int main()
         maxfinal = final[i];
     }
     printf("%d", maxfinal);
+    free(arr);
+    free(temp);
+    free(final);
 }
