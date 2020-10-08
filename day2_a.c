@@ -30,5 +30,6 @@ int main() {
     printf("SUM found between indexes %d and %d", i, j);
   else
     printf("SUM not found");
+  free(arr);
   return 0;
 }
