@@ -42,5 +42,8 @@ int main() {
       maxfinal = last[i];
   }
   printf("%d", maxfinal);
+  free(arr);
+  free(last);
+  free(new);
   return 0;
 }
