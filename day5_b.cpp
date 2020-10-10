@@ -13,7 +13,7 @@ int main() {
   {
     flag = 0;
     buy = arr[i];
-    for(j=i+1;j<n && arr[j] > buy; j++)
+    for(j=i+1;arr[j] > buy && j<n; j++)
     {
       flag = 1;
       ch = 'y';
